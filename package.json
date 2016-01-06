@@ -1,0 +1,9 @@
+{
+	"name": "MokumAnonyBot",
+	"version" : "0.0.1",
+	"description" : "A Telegram bot for making anonymous posts on Mokum",
+	"dependencies" : {
+		"node-telegram-bot" : "latest",
+		"request" : "latest"
+	}
+}

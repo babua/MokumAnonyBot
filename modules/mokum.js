@@ -38,7 +38,8 @@ var mokumModule = {
                 json: {
                 	post: {
                 		"timelines": ["user"], 
-                		"text": query	
+                		"text": query,
+                        "nsfw" : 1
                 	}
                 	
                 },

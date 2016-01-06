@@ -39,7 +39,7 @@ var mokumModule = {
                 	post: {
                 		"timelines": ["user"], 
                 		"text": query,
-                        "nsfw" : 1
+                        "nsfw" : true
                 	}
                 	
                 },

@@ -20,6 +20,7 @@ var mokumModule = {
                 return;
             }
 			if (response.statusCode == 200) {
+                console.log(response);
 			    platform.message("Succesfully posted to Mokum", state);
 			} else {
 			    platform.failMessage("Posting to Mokum failed",state);

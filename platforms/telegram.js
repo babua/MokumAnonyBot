@@ -41,6 +41,8 @@ var telegramPlatform = function (mokumanonybot) {
 
     self.debug = function (obj, state) {
         console.log(obj);
+        // console.log(obj.message.document.file_id);
+        // console.log(obj.message.document.file_name);
     };
 
     self.error = function (err, state) {

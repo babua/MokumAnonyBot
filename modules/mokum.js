@@ -21,7 +21,7 @@ var mokumModule = {
             }
 			if (response.statusCode == 200) {
                 console.log(response);
-			    platform.message("Succesfully posted to Mokum", state);
+			    platform.message("Succesfully posted to Mokum\nhttp://mokum.place/mokumanony/" + response.body.post.id, state);
 			} else {
 			    platform.failMessage("Posting to Mokum failed",state);
 			}
